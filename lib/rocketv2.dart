@@ -34,7 +34,7 @@ class _RocketHome extends State<RocketHome> {
     return Scaffold(
       body: Center(
         child: Container(
-          decoration: BoxDecoration(image: DecorationImage(image: AssetImage("images/Universe_Starry_Sky_Space_HD_Nebula_1366x768.jpg"),fit: BoxFit.cover)),
+          decoration: BoxDecoration(image: DecorationImage(image: AssetImage("images/ciel.jpg"),fit: BoxFit.cover)),
           height: MediaQuery.of(context).size.height,
           width: MediaQuery.of(context).size.width,
           //color: Colors.green,
@@ -50,7 +50,7 @@ class _RocketHome extends State<RocketHome> {
                   margin: EdgeInsets.only(bottom: _bottomMargin),
                   //color: Colors.blue,
                   child: Image.asset(
-                    "images/pngegg.png",
+                    "images/rocket.png",
                     height: 150,
                     width: 150,
                   ),
